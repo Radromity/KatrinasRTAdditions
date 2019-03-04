@@ -227,7 +227,7 @@
     "VariantName": "MAL-KS",
 	"ChassisTags" : {
         "items" : [
-			
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
 	},
