@@ -1,0 +1,116 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "Cockpit"
+        }],
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "1",
+                "CBillCost": "[[Chassis.Tonnage]]"
+            }
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"JumpDistance: 5%",
+                "IsCockpit"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "10202"
+        },
+		"Flags":{
+			"flags":[
+				"not_broken",
+				"autorepair"
+			]
+		}
+    },
+	"JumpCapacity": 1,
+	"MinTonnage": 5,
+	"MaxTonnage": 200,
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 110000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Urbistowne Quartet",
+        "Model": "Spinner Cap",
+        "UIName": "Spinner Cap",
+        "Id": "Gear_Cockpit_SpinnerCap",
+        "Name": "Spinner Cap",
+        "Details": "A special `Mech sized spinner cap made by the fourth member of the Urbistowne Quartet, it somehow replaces the cockpit of the mech just by being placed on top. Amazingly the miniature propeller on top actually works. I have no clue how that works Boss.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+    },
+    "BonusValueA": "Extra Jump Distance",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-SpinnerCap",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "The hat is spinny. Jump Jet distance increased by 5%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.05",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

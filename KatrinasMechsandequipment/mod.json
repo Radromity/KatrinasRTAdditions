@@ -1,0 +1,44 @@
+{
+    "Name": "Katrina's Mechs and Equipment",
+    "Enabled": true,
+    "ConflictsWith": [
+        "RogueTech Enhanced",
+        "RogueTech Enhanced Clans"
+    ],
+	"DependsOn": [
+		"CustomComponents",
+        "MechEngineer"
+    ],
+    "Version": "0.1.0",
+    "Description": "Various Mechs and Equipment for RogueTech",
+    "Author": "Katrina Kerensky",
+    "Website": "",
+    "Contact": "Discord: Katrina Kerensky#5673",
+    "Manifest": [
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis"
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech"
+        },
+		{
+			"Type": "MovementCapabilitiesDef",
+			"Path": "move"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Cockpit/LifeSupport"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Cockpit/Sensors"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "portrait"
+		}
+    ]
+	
+}
