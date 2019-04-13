@@ -11,10 +11,10 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "UrbanMech",
-    "Id": "chassisdef_urbanmech_UM-R60",
-    "Name": "UrbanMech",
-    "Details": "Don't let the stubby 'Urbie' fool you—it may look like a walking trash can, but it can mount heavy armor and a grown-up-sized Autocannon. R60s aren't known for their speed, but they are very useful if you can draw the enemy into their firing range. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
+    "UIName": "Urbistowne Quartet 3",
+    "Id": "chassisdef_urbanmech_UM-UQ3",
+    "Name": "Urbistowne Quartet 3",
+    "Details": "You STOLE one of the Urbistowne Quartet's prized Urbies? How could you monster!",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "MovementCapDefID": "movedef_urbanmech_UM-R60",
@@ -55,7 +55,67 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -66,11 +126,63 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -82,7 +194,68 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+	  {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 70,
@@ -91,7 +264,68 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+	  {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 100,
@@ -100,7 +334,68 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+	  {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 70,
@@ -124,6 +419,50 @@
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -196,11 +535,13 @@
       "z": 0.5
     }
   ],
-  "VariantName": "UM-R60",
+  "VariantName": "UM-UQ3",
   "ChassisTags": {
-    "items": [],
+    "items": [
+		
+	],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Defender",
-  "YangsThoughts": "Don't let the stubby 'Urbie' fool you—it may look like a walking trash can, but it can mount heavy armor and a grown-up-sized Autocannon. R60s aren't known for their speed, but they are very useful if you can draw the enemy into their firing range."
+  "StockRole": "Prized Urbie",
+  "YangsThoughts": "You STOLE one of the Urbistowne Quartet's prized Urbies? How could you monster!"
 }

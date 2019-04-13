@@ -1,7 +1,7 @@
 {
     "Custom": {
         "Category": [{
-            "CategoryID": ""
+            "CategoryID": "Cockpit"
         }],
         "WorkOrderCosts": {
             "Install": {
@@ -21,6 +21,7 @@
         },
 		"Flags":{
 			"flags":[
+				"no_salvage",
 				"not_broken",
 				"autorepair"
 			]
